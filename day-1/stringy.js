@@ -68,7 +68,7 @@ function beginsWith(string, char) {
   // YOUR CODE HERE //
  //returning to grab the first letter in string and then strictly compares if it matches the lower case
   return string[0].toLowerCase() === char.toLowerCase()
-}
+} 
 
 /**
  * Given an input String and a single character, return true if the String
