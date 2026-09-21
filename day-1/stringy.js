@@ -15,7 +15,7 @@
 
 function length(string) {
   // YOUR CODE HERE //
-  
+  return string.length
 }
 
 /**
@@ -24,16 +24,17 @@ function length(string) {
 
 function toLowerCase(string) {
   // YOUR CODE HERE //
+ return string.toLowerCase
 }
 
 /**
  * Given an input String, return a new String forced to uppercase.
  */
-
+//initalze function to make string uppercase
 function toUpperCase(string) {
-  // YOUR CODE HERE //
-}
-
+  return word.toUpperCase
+} 
+console.log()
 /**
  * Given an input String, return a new String forced to dash-case.
  *
@@ -46,6 +47,7 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
   // YOUR CODE HERE //
+  return string.toLowerCase().split(' ').join('-');
 }
 
 /**
@@ -64,6 +66,8 @@ function toDashCase(string) {
 
 function beginsWith(string, char) {
   // YOUR CODE HERE //
+ //returning to grab the first letter in string and then strictly compares if it matches the lower case
+  return string[0].toLowerCase() === char.toLowerCase()
 }
 
 /**
@@ -80,6 +84,11 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
   // YOUR CODE HERE //
+  if (string.length === 0) {
+    return false;
+  }
+  var lastChar = string[string.length - 1];
+  return lastChar.toLowerCase() ===
 }
 
 /**
