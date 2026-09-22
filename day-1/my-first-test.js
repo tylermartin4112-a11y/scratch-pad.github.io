@@ -18,7 +18,9 @@
 
 function print(value) {
   // YOUR CODE HERE //
+  return value;
 }
+console.log(print('tyler'));
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if (

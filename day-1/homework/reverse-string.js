@@ -19,9 +19,11 @@
  *  d. how do you concatenate Strings? What operator do we use?
  */
 
-function reverseString(input) {
+function reverseString(str) {
   // YOUR CODE HERE //
+  return str.split('').reverse().join('');
 }
+console.log(reverseString('hello'));
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if (
